@@ -6,18 +6,7 @@ export const main = {                               // создаем объек
     index : 0,
     SPEED : 2
 }
-    main.sprite.src = "img/sprite.png"; 
-
-// export const SCORE_S = new Audio();                     // создаем сонстанты для звуков
-// SCORE_S.src = "/audio/sfx_point.wav";
-// export const FLAP = new Audio();
-// FLAP.src = "/audio/sfx_flap.wav";
-// export const HIT = new Audio();
-// HIT.src = "/audio/sfx_hit.wav";
-// export const SWOOSHING = new Audio();
-// SWOOSHING.src = "/audio/sfx_swooshing.wav";
-// export const DIE = new Audio();
-// DIE.src = "/audio/sfx_die.wav";
+    main.sprite.src = "./img/sprite.png"; 
 
 export const sound = {                          // кладем их в объект чтобы вызывать по ссылке
     SCORE_S:   new Audio(),
@@ -26,11 +15,11 @@ export const sound = {                          // кладем их в объе
     SWOOSHING: new Audio(),
     DIE:       new Audio(),
 }
-    sound.SCORE_S.src   = "audio/sfx_point.wav";
-    sound.FLAP.src      = "audio/sfx_flap.wav";
-    sound.HIT.src       = "audio/sfx_hit.wav";
-    sound.SWOOSHING.src = "audio/sfx_swooshing.wav";
-    sound.DIE.src       = "audio/sfx_die.wav";
+    sound.SCORE_S.src   = "./audio/sfx_point.wav";
+    sound.FLAP.src      = "./audio/sfx_flap.wav";
+    sound.HIT.src       = "./audio/sfx_hit.wav";
+    sound.SWOOSHING.src = "./audio/sfx_swooshing.wav";
+    sound.DIE.src       = "./audio/sfx_die.wav";
 
 export const gameFase = {
     current : 0,
