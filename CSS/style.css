@@ -16,6 +16,9 @@ h1 {
     display: block;
     color: aliceblue;
     font-size: 36px;
-    margin-top: 15vh;
     text-align: center;
+    margin-top: 15vh;
+    @media screen and (max-width: 375px) {
+        margin-top: 0;
+    }
 }
