@@ -6,7 +6,7 @@ export const main = {                               // создаем объек
     index : 0,
     SPEED : 2
 }
-    main.sprite.src = "./sprite.png"; 
+    main.sprite.src = "sprite.png"; 
 
 // export const SCORE_S = new Audio();                     // создаем сонстанты для звуков
 // SCORE_S.src = "/audio/sfx_point.wav";
