@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+
+body {
+    background-color: black;
+    font-family: 'Teko', sans-serif;
+    font-weight: 700;
+}
+
+canvas {
+    margin: 10vh auto 0;
+    display: block;
+    border-radius: 5px;
+}
+
+h1 {
+    display: block;
+    color: aliceblue;
+    font-size: 36px;
+    margin-top: 15vh;
+    text-align: center;
+}
