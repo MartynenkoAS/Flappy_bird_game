@@ -75,7 +75,7 @@ class Draw {
                     main.ctx.font = "20px Teko";
                     main.ctx.fillText("tap on the medal to reset best score", 20, 420);
                     
-                    if (window.screen.width <= 375) {                                       // чтобы на мобилке не писать
+                    if (window.screen.width > 768) {                                       // чтобы на мобилке не писать
                         main.ctx.fillText("Enter to restart", 109, 445);
                     }
                 }
